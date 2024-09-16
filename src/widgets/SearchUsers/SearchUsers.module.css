@@ -1,0 +1,26 @@
+.search {
+  max-width: 400px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 2px solid #e0cece;
+  filter: drop-shadow(1px 5px 5px #6c5c90);
+  caret-color: #554254;
+
+  &::placeholder {
+    position: relative;
+    top: 1px;
+    font-size: 16px;
+    text-align: center;
+    color: #bbb6c8;
+  }
+
+  &:focus-visible {
+    outline: #e0cece auto 1px;
+    filter: drop-shadow(1px 2px 2px #6c5c90);
+  }
+
+  &::-webkit-search-cancel-button {
+    display: none;
+  }
+}
