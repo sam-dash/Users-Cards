@@ -1,0 +1,14 @@
+.addUserButton {
+  justify-self: end;
+  padding: 0 2vw;
+}
+
+.addUserImg {
+  width: 80px;
+  filter: drop-shadow(5px 2px 2px #74b2ec);
+  cursor: pointer;
+
+  &:active {
+    filter: drop-shadow(2px 1px 1px #74b2ec);
+  }
+}

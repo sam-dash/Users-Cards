@@ -1,0 +1,35 @@
+.popupButton {
+  position: relative;
+  justify-self: start;
+  padding: 0 2vw;
+}
+
+.popup {
+  position: absolute;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #6c5c90;
+  background-color: #fefefe;
+
+  input {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  label {
+    cursor: pointer;
+  }
+}
+
+.popupImg {
+  width: 80px;
+  filter: drop-shadow(5px 2px 2px #74b2ec);
+  cursor: pointer;
+
+  &:active {
+    filter: drop-shadow(2px 1px 1px #74b2ec);
+  }
+}
